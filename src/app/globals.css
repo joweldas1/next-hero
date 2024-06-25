@@ -31,3 +31,14 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.logo{
+  color: brown;
+}
+
+.customShadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
