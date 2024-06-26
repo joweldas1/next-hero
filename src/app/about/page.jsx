@@ -13,7 +13,7 @@ export const metadata = {
 
 
 
-const AboutPage =async () => {
+const AboutPage = () => {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <h1 className="text-red-700 font-semibold text-2xl">
