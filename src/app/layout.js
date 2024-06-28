@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "./componenet/Navbar";
+import AuthProvider from "@/services/AuthProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({subsets:["latin"], weight:["100","200","400","500","800"] } )
@@ -22,9 +23,11 @@ export default function RootLayout({ children }) {
       <body className={`${poppins.className} mx-2 `}>
     
        <div className="">
+        <AuthProvider>
        <Navbar/>
-       </div>
         {children}
+        </AuthProvider>
+       </div>
       </body>
     </html>
   );

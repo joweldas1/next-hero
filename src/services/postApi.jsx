@@ -1,4 +1,3 @@
-import { redirect } from "next/navigation";
 
 // services/postApi.js
 export const getPost = async () => {

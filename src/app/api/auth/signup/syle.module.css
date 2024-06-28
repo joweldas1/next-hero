@@ -1,0 +1,46 @@
+.form {
+    background-color: #fff; /* White background for the form */
+    padding: 2rem; /* Padding inside the form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+
+
+.input[type="text"],
+.input[type="email"],
+.input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 0.5rem; /* Padding inside the input */
+    margin: 0.5rem 0; /* Margin around each input */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.button {
+    width: 100%; /* Full width */
+    padding: 0.75rem; /* Padding inside the button */
+    margin-top: 1rem; /* Margin at the top */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007bff; /* Blue background */
+    color: #fff; /* White text */
+    font-size: 1rem; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+@media (max-width: 600px) {
+    .input[type="text"],
+    .input[type="email"],
+    .input[type="password"],
+    .button {
+        width: 100%; /* Full width on small screens */
+    }
+}
